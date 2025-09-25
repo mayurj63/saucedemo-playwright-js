@@ -1,0 +1,34 @@
+{
+  "name": "saucedemo-playwright-js",
+  "version": "1.0.0",
+  "description": "Playwright automation framework for SauceDemo e-commerce application using POM + TDD approach",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:ui": "npx playwright test --ui",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure serve allure-results",
+    "install:browsers": "npx playwright install"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "testing",
+    "javascript",
+    "pom",
+    "tdd",
+    "saucedemo",
+    "e-commerce"
+  ],
+  "author": "Playwright Automation Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "allure-playwright": "^2.10.0",
+    "allure-commandline": "^2.24.1"
+  },
+  "dependencies": {}
+}

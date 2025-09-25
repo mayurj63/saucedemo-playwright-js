@@ -1,0 +1,34 @@
+{
+  "checkoutInfo": {
+    "valid": {
+      "firstName": "John",
+      "lastName": "Doe",
+      "postalCode": "12345"
+    },
+    "invalid": [
+      {
+        "firstName": "",
+        "lastName": "Doe",
+        "postalCode": "12345",
+        "expectedError": "Error: First Name is required"
+      },
+      {
+        "firstName": "John",
+        "lastName": "",
+        "postalCode": "12345",
+        "expectedError": "Error: Last Name is required"
+      },
+      {
+        "firstName": "John",
+        "lastName": "Doe",
+        "postalCode": "",
+        "expectedError": "Error: Postal Code is required"
+      }
+    ]
+  },
+  "paymentInfo": {
+    "tax": 0.08,
+    "taxLabel": "Tax",
+    "totalLabel": "Total"
+  }
+}
