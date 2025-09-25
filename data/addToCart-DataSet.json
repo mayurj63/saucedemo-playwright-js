@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Standard User",
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "description": "Standard user with valid credentials"
+  },
+  {
+    "name": "Products",
+    "products": [
+      {
+        "id": 4,
+        "name": "Sauce Labs Backpack",
+        "price": "$29.99"
+      }
+    ]
+  },
+  {
+    "name": "Customer Info",
+    "firstName": "standard_user",
+    "lastName": "standard_user",
+    "postalCode": "123456"
+  },
+  {
+    "name": "Order Total",
+    "subtotal": "$29.99",
+    "tax": "$2.40",
+    "total": "$32.39"
+  },
+  {
+    "name": "Order Complete",
+    "headerText": "Thank you for your order!",
+    "messageText": "Your order has been dispatched, and will arrive just as fast as the pony can get there!"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Standard User",
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "description": "User with standard access"
+  },
+  {
+    "name": "Footer Text",
+    "expectedText": "© 2025 Sauce Labs. All Rights Reserved. Terms of Service | Privacy Policy"
+  },
+  {
+    "name": "Menu Items",
+    "menuItems": [
+      "All Items",
+      "About",
+      "Logout",
+      "Reset App State"
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "description": "Standard user with valid credentials"
+  },
+  {
+    "username": "locked_out_user",
+    "password": "secret_sauce",
+    "description": "Locked out user"
+  },
+  {
+    "username": "problem_user",
+    "password": "secret_sauce",
+    "description": "User with problem permissions"
+  },
+  {
+    "username": "performance_glitch_user",
+    "password": "secret_sauce",
+    "description": "User that causes performance issues"
+  },
+  {
+    "username": "invalid_user",
+    "password": "invalid_password",
+    "description": "Invalid user that should fail login"
+  }
+]
